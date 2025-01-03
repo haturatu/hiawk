@@ -10,7 +10,7 @@
 BEGIN {
   stderr = "/dev/stderr"
   if (ARGV[1] ~ /[A-Za-z]/) {
-    print "Error:", "I don't understand eng" >> stderr
+    print "Error:", "i don't understand it eng" > stderr
     exit -1
   }
 }
